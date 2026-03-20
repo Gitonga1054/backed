@@ -2,35 +2,30 @@
     "name": "intro_to_backend",
     "version": "1.0.0",
     "description": "a tutorial for intro to backend",
-    "main": "src/index.js ",
+    "main": "backedwork/src/index.js",
     "type": "module",
     "scripts": {
-        "start": "node src/index.js",
-        "dev": "nodemon src/index.js",
-        "main": "index.js",
-        "type": "module",
-        "scripts": {
-            "start": "node src/index.js",
-            "dev": "nodemon src/index.js"
-        },
-        "repository": {
-            "type": "git",
-            "url": "git+https://github.com/Gitonga1054/backed.git"
-        },
-        "author": "kelvin",
-        "license": "ISC",
-        "bugs": {
-            "url": "https://github.com/Gitonga1054/backed/issues"
-        },
-        "homepage": "https://github.com/Gitonga1054/backed#readme",
-        "dependencies": {
-            "dotenv": "^17.3.1",
-            "express": "^5.2.1",
-            "mongoose": "^8.23.0",
-            "mongoose": "^8.23.0"
-        },
-        "devDependencies": {
-            "nodemon": "^3.1.14"
-        }
+        "start": "node backedwork/src/index.js",
+        "dev": "nodemon backedwork/src/index.js"
+
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Gitonga1054/backed.git"
+    },
+    "author": "kelvin",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Gitonga1054/backed/issues"
+    },
+    "homepage": "https://github.com/Gitonga1054/backed#readme",
+    "dependencies": {
+        "dotenv": "^17.3.1",
+        "express": "^5.2.1",
+        "mongoose": "^8.23.0",
+        "bcrypt": "^6.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
     }
 }
