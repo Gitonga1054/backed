@@ -19,13 +19,17 @@ const userSchema = new Schema({
         kMaxLength: 30
     },
     email: {
-        type: email,
+        type: String,
         required: true,
         unique: true,
         minLength: 6,
         kMaxLength: 30,
         lowercase: true,
         trim: true
+    },
+    loggedIn: {
+        type: Boolean,
+        default: false
     }
 }, {
     timestamps: true
