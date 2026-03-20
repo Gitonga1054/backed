@@ -2,28 +2,62 @@
     "name": "intro_to_backend",
     "version": "1.0.0",
     "description": "a tutorial for intro to backend",
-    "main": "backedwork/src/index.js ",
+    <<
+    <<
+    <<
+    <
+    HEAD "main": "src/index.js ",
     "type": "module",
     "scripts": {
-        "start": "node backedwork/src/index.js",
-        "dev": "nodemon backedwork/src/index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Gitonga1054/backed.git"
-    },
-    "author": "kelvin",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Gitonga1054/backed/issues"
-    },
-    "homepage": "https://github.com/Gitonga1054/backed#readme",
-    "dependencies": {
-        "dotenv": "^17.3.1",
-        "express": "^5.2.1",
-        "mongoose": "^9.3.1"
-    },
-    "devDependencies": {
-        "nodemon": "^3.1.14"
-    }
-}
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js" ===
+            ===
+            =
+            "main": "index.js",
+        "type": "module",
+        "scripts": {
+            "start": "node src/index.js",
+            "dev": "nodemon src/index.js" >>>
+                >>>
+                >
+                29 c90896575688c9760860fc24e3b6fbf9583f11
+        },
+        "repository": {
+            "type": "git",
+            "url": "git+https://github.com/Gitonga1054/backed.git"
+        },
+        "author": "kelvin",
+        "license": "ISC",
+        "bugs": {
+            "url": "https://github.com/Gitonga1054/backed/issues"
+        },
+        "homepage": "https://github.com/Gitonga1054/backed#readme",
+        "dependencies": {
+            "dotenv": "^17.3.1",
+            "express": "^5.2.1",
+            <<
+            <<
+            <<
+            <
+            HEAD "mongoose": "^8.23.0" ===
+                ===
+                =
+                "mongoose": "^8.23.0" >>>
+                >>>
+                >
+                29 c90896575688c9760860fc24e3b6fbf9583f11
+        },
+        "devDependencies": {
+            "nodemon": "^3.1.14"
+        } <<
+        <<
+        <<
+        <
+        HEAD
+    } ===
+    ===
+    =
+} >>>
+>>>
+>
+29 c90896575688c9760860fc24e3b6fbf9583f11
