@@ -1,7 +1,5 @@
 import mongoose, { Schema } from "mongoose";
-import bcrypt from "bcrypt"
-import { kMaxLength } from "node:buffer";
-import { type } from "node:os";
+import bcrypt from "bcrypt";
 const userSchema = new Schema({
         username: {
             type: String,
@@ -24,7 +22,7 @@ const userSchema = new Schema({
             required: true,
             unique: true,
             minLength: 6,
-            kMaxLength: 30,
+            MaxLength: 30,
             lowercase: true,
             trim: true
         },
@@ -37,7 +35,7 @@ const userSchema = new Schema({
     })
     // before saving any password we must hash it
 userSchema.pre("save", async function(next) {
-    if (!this.isModified("password")) returnext();
+    if (!this.isModified("password")) return next();
     this.password = await bcrypt.hash(this.password, 10);
     next();
 });
