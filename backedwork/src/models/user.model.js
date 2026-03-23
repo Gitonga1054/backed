@@ -8,14 +8,14 @@ const userSchema = new Schema({
             lowercase: true,
             trim: true,
             minLength: 1,
-            kMaxLength: 20
+            MaxLength: 20
 
         },
         password: {
             type: String,
             required: true,
             minLength: 6,
-            kMaxLength: 30
+            MaxLength: 30
         },
         email: {
             type: String,
